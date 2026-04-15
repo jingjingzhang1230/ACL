@@ -4,9 +4,11 @@ This repository contains the implementation of a hierarchical multimodal framewo
 
 ## Overview
 
+This project using dataset from https://www.kaggle.com/datasets/sohaibanwaar1203/kneemridataset.
+
 ACL severity assessment is formulated as two related binary tasks rather than a flat three-class classification problem:
 
-1. **Head 1:** Healthy vs Injured  
+1. **Head 1:** Healthy vs Injured
 2. **Head 2:** Partial Tear vs Complete Tear, evaluated only for injured cases
 
 The framework integrates three sources of information:
