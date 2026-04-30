@@ -25,7 +25,7 @@ These features are encoded separately, fused into a shared representation, and u
   Main training script for the hierarchical multimodal classification model.
 
 - `evaluate.py`  
-  Evaluation script for the trained hierarchical model using 5-fold drop-one-subset jackknife evaluation.
+  Evaluation script for the trained hierarchical model.
 
 - `acl_dataloader.py`  
   Custom PyTorch dataset for loading 3D MRI volumes, radiomic features, and ROI masks.
